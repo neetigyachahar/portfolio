@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+
+.text {
+  @apply inline backdrop-blur-3xl p-1;
+}
